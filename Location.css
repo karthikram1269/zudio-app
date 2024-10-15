@@ -397,7 +397,7 @@
   }
   
   .iimages{
-    border: 2px solid black ;
+    /* border: 2px solid black ; */
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
