@@ -1,0 +1,591 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.Locnavbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 15px 20px;
+    position: relative;
+}
+
+#Loctext-img {
+    height: 42px; 
+    width: 212px;;
+    margin-left: 30px;
+}
+
+.Locnav-items {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+
+.Locnav-items ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.Locnav-items ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Futura,sans-serif;
+    font-size: 18px; 
+    margin-right: 40px;
+}
+
+.Locnav-items ul li a:hover {
+    color: #f0a500; 
+}
+
+.nav-bar-right {
+    width: 50px;
+    background-color: black;
+    height: 100%;
+}
+
+#Locbelow {
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+#locator{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#Lochead{
+    font-size: 26px;
+}
+
+
+.Locdivbar {
+    margin: 20px;
+    background-color: rgba(205, 211, 211, 0.304);
+    height: 200px;
+    text-align: center;
+}
+
+#states,#cities {
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 25px;
+}
+
+#LocstoreAll {
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.divisons {
+    width: 32.5%; 
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid white;
+    margin: 0px 0.5% 1px 0; 
+    background-color: rgba(205, 211, 211, 0.304);
+    box-sizing: border-box; 
+    vertical-align: top; 
+}
+
+.hthree {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.hfive {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.adres {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.loc-link {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px 8px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.loc-link:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+.Locsite-footer {
+    color: white;
+    padding: 1px;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    padding-left: 45px;
+    font-size: 15px;
+  }
+  
+.Locsite-footer p:nth-of-type(1){
+    padding-top: 9px;;
+}
+.Locsite-footer .Locstart .Locsocial-icon{
+    display: inline;
+  }
+  
+  .Locsite-footer .Locsocial-link, 
+  .Locsite-footer .Loccontact-link {
+    color:inherit;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+ 
+  .Locsite-footer .Locsocial-icon {
+    width: 20px;
+    vertical-align: middle;
+  }
+
+.Locfooter-text{
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+}
+
+.Locsite-footer p:last-of-type {
+    padding-left: 18%;
+}
+
+
+
+/* <!-- zud --> */
+
+
+
+
+#zudback{
+    background-color: black;
+}
+
+.zudnavbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 15px 20px;
+    position: relative;
+}
+
+#zudtext-img{
+    height: 42px; 
+    width: 212px;;
+    margin-left: 30px;
+}
+
+.zudnav-items {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+
+.zudnav-items ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+.zudnav-items ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Futura,sans-serif;
+    font-size: 18px; 
+    margin-right: 40px;
+}
+
+.zudnav-items ul li a:hover {
+    color: #f0a500; 
+}
+
+.zudnav-bar-right {
+    width: 50px;
+    background-color: black;
+    height: 100%;
+}
+
+#zudcontainer {
+    position: static;
+    display: inline-block;
+    color: yellow; 
+}
+
+#zudcontainer img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#zudcontainer ul {
+    position: absolute;
+    top: 10p; 
+    left: 50px; 
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+
+.image-container ul li {
+    font-size: 20px; 
+    padding: 25px 40px; 
+    border-radius: 5px; 
+}
+
+#zudcontainer img{
+    width: 97%;
+}
+
+
+#zudlist li:hover{
+    color: #ebf2f4a5
+}
+
+#zudlist{
+    position: absolute;
+    top : 190px;
+    left : 30px;
+
+}
+
+#zudlist li{
+    padding: 16.5px;
+    font: 20px Futura,sans-serif;
+    top: 10%;
+    left:40%
+    
+}
+
+.zudsite-footer {
+    color: white;
+    padding: 1px;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    padding-left: 45px;
+    font-size: 15px;
+  }
+  
+ 
+.zudsite-footer p:nth-of-type(1){
+    padding-top: 9px;;
+}
+  .zudsite-footer .zudstart .zudsocial-icon{
+    display: inline;
+  }
+  
+  .zudsite-footer .zudsocial-link, 
+  .zudsite-footer .zudcontact-link {
+    color:inherit;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+
+  .zudsite-footer .zudsocial-icon {
+    width: 20px;
+    vertical-align: middle;
+  }
+
+.zudfooter-text{
+    display: inline-block;
+    font-size: 14px; 
+    color: white;
+    padding: 5px;
+}
+
+.zudsite-footer p:last-of-type {
+    padding-left: 18%;
+}
+
+/* 3rd - zudio  */
+
+
+
+.inavbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 15px 20px;
+    position: relative;
+  }
+  
+  #itext-img {
+    height: 42px; 
+    width: 212px;;
+    margin-left: 30px;
+  }
+  
+  .inav-items {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  
+  
+  .inav-items ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+    gap: 20px;
+  }
+  
+  .inav-items ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Futura,sans-serif;
+    font-size: 18px; 
+    margin-right: 40px;
+  }
+  
+  .inav-items ul li a:hover {
+    color: #f0a500; 
+  }
+  
+  .inav-bar-right {
+    width: 50px;
+    background-color: black;
+    height: 100%;
+  }
+  
+  .itext{
+      padding-top: 3%;
+      font-style:normal;
+      font-size: 52px;
+      width: 784px;
+      margin-left: 20%;
+      text-align: center;
+  }
+  
+  .itext2{
+      padding-bottom: 3%;
+      font-style: normal;
+      font-size: 20px;
+      width: 784px;
+      margin-left: 20%;
+      text-align: center;
+  }
+  
+  .iimages{
+    border: 2px solid black ;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-left: 5%;
+      padding-top: 1%;
+  }
+  
+  
+  .isite-footer {
+    color: white;
+    padding: 1px;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    padding-left: 45px;
+    font-size: 15px;
+  }
+  
+  
+  .isite-footer p:nth-of-type(1){
+    padding-top: 9px;;
+  }
+  .isite-footer .start .isocial-icon{
+    display: inline;
+  }
+  
+  .isite-footer .isocial-link, 
+  .isite-footer .icontact-link {
+    color:inherit;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  .isite-footer .isocial-icon {
+    width: 20px;
+    vertical-align: middle;
+  }
+  
+  .ifooter-text{
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+  }
+  
+  .isite-footer p:last-of-type {
+    padding-left: 18%;
+  }
+
+
+
+
+  /* 4th - zworld  */
+
+
+
+
+.wnavbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 15px 20px;
+    position: sticky;  
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
+}
+
+#wtext-img {
+    height: 42px; 
+    width: 212px;;
+    margin-left: 30px;
+}
+
+.wnav-items {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+
+.wnav-items ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.wnav-items ul li a {
+    color: white;
+    font-family: Futura,sans-serif;
+    font-size: 18px; 
+    margin-right: 40px;
+}
+
+.wnav-items ul li a:hover {
+    color: #f0a500; 
+}
+
+
+#walld {
+    position: relative; 
+    z-index: 10; 
+    background-color: white;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.wbada{
+    font: 32px Futura, sans-serif;
+    color: black;
+    margin: 25px 0;
+}
+
+.wgrey-c{
+    font: 24px Futura, sans-serif;
+    margin: 0 0 20px;
+    color: #6D6E31;
+}
+
+#walld #wone{
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+#walld a{
+    padding: 10px;
+    color: black;
+}
+
+#walld a:hover{
+    color: gray;
+}
+
+#walld{
+    margin: 40px 80px;  
+}
+
+#walld div h3{
+    width: 259.3;
+    height: 31.2;
+}
+
+.wbada:nth-child(3){
+    font-size: 50px;
+}
+
+#outer{
+    padding-top: 30px;
+}
+
+.wsite-footer {
+    color: white;
+    padding: 1px;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    padding-left: 45px;
+    font-size: 15px;
+  }
+  
+ 
+  .wsite-footer p:nth-of-type(1){
+    padding-top: 9px;;
+}
+.wsite-footer .wstart .wsocial-icon{
+    display: inline;
+  }
+  
+  .wsite-footer .wsocial-link, 
+  .wsite-footer .wcontact-link {
+    color:inherit;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .wsite-footer .wsocial-icon {
+    width: 20px;
+    vertical-align: middle;
+  }
+
+.wfooter-text{
+    display: inline-block;
+    font-size: 14px; 
+    color: white;
+    padding: 5px;
+}
+
+.wsite-footer p:last-of-type {
+    padding-left: 18%;
+}
+  
